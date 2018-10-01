@@ -1,0 +1,407 @@
+[09:22:35,886][INFO][main][IgniteKernal%Bunker] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.6.0#20180710-sha1:669feacc
+>>> 2018 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[09:22:35,912][INFO][main][IgniteKernal%Bunker] Config URL: n/a
+[09:22:35,926][INFO][main][IgniteKernal%Bunker] IgniteConfiguration [igniteInstanceName=Bunker, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=8, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, igniteHome=C:\apache\apache-ignite-fabric-2.6.0-bin, igniteWorkDir=C:\apache\apache-ignite-fabric-2.6.0-bin\work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@568ff82, nodeId=2283b712-c44d-4d1a-8861-efd44de60db2, marsh=org.apache.ignite.internal.binary.BinaryMarshaller@7cb502c, marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, srvLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$2@28d18df5, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, lsnr=null, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@55cf0d14[Count = 1], stopping=false, metricsLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationMetricsListener@3b74ac8], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@27adc16e, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [lsnr=null], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@1fd14d74, addrRslvr=null, clientMode=false, rebalanceThreadPoolSize=1, txCfg=org.apache.ignite.configuration.TransactionConfiguration@563e4951, cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, hadoopCfg=null, connectorCfg=org.apache.ignite.configuration.ConnectorConfiguration@4066c471, odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=PlatformDotNetConfiguration [binaryCfg=null], binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysCacheMaxSize=104857600, pageSize=4096, concLvl=0, dfltDataRegConf=DataRegionConfiguration [name=BunkerTest, maxSize=1073741824, initSize=104857600, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=false, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0], storagePath=C:\Bunker, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@7d3d101b, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=true, walCompactionEnabled=false], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null], authEnabled=false, failureHnd=null, commFailureRslvr=null]
+[09:22:35,930][INFO][main][IgniteKernal%Bunker] Daemon mode: off
+[09:22:35,930][INFO][main][IgniteKernal%Bunker] OS: Windows 10 10.0 amd64
+[09:22:35,930][INFO][main][IgniteKernal%Bunker] OS user: aaron.peterson
+[09:22:35,936][INFO][main][IgniteKernal%Bunker] PID: 11896
+[09:22:35,937][INFO][main][IgniteKernal%Bunker] Language runtime: Java Platform API Specification ver. 10
+[09:22:35,937][INFO][main][IgniteKernal%Bunker] VM information: Java(TM) SE Runtime Environment 10.0.2+13 "Oracle Corporation" Java HotSpot(TM) 64-Bit Server VM 10.0.2+13
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] VM total memory: 4.0GB
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] Remote Management [restart: off, REST: on, JMX (remote: off)]
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] Logger: JavaLogger [quiet=true, config=null]
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] IGNITE_HOME=C:\apache\apache-ignite-fabric-2.6.0-bin
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] VM arguments: [-Xms512m, --add-exports=java.base/jdk.internal.misc=ALL-UNNAMED, --add-exports=java.base/sun.nio.ch=ALL-UNNAMED, --add-exports=java.management/com.sun.jmx.mbeanserver=ALL-UNNAMED, --add-exports=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --illegal-access=permit]
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemCacheMemorySize property to change the setting.
+[09:22:35,938][INFO][main][IgniteKernal%Bunker] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'BunkerTest' dataRegion: ['BunkerTest']]
+[09:22:35,941][WARNING][pub-#19%Bunker%][GridDiagnostic] This operating system has been tested less rigorously: Windows 10 10.0 amd64. Our team will appreciate the feedback if you experience any problems running ignite in this environment.
+[09:22:35,944][INFO][main][IgniteKernal%Bunker] 3-rd party licenses can be found at: C:\apache\apache-ignite-fabric-2.6.0-bin\libs\licenses
+[09:22:36,024][INFO][main][IgnitePluginProcessor] Configured plugins:
+[09:22:36,024][INFO][main][IgnitePluginProcessor]   ^-- None
+[09:22:36,024][INFO][main][IgnitePluginProcessor] 
+[09:22:36,026][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0]]
+[09:22:36,082][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[09:22:36,209][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[09:22:36,226][WARNING][main][NoopCheckpointSpi] Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[09:22:36,248][WARNING][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[09:22:36,249][INFO][main][IgniteKernal%Bunker] Security status [authentication=off, tls/ssl=off]
+[09:22:36,274][INFO][main][TcpDiscoverySpi] Successfully bound to TCP port [port=47500, localHost=0.0.0.0/0.0.0.0, locNodeId=2283b712-c44d-4d1a-8861-efd44de60db2]
+[09:22:36,292][INFO][main][PdsFoldersResolver] Successfully locked persistence storage folder [C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa]
+[09:22:36,293][INFO][main][PdsFoldersResolver] Consistent ID used for local node is [3fb13f50-8165-417e-93ca-ffb8d0648bfa] according to persistence data storage folders
+[09:22:36,293][INFO][main][CacheObjectBinaryProcessorImpl] Resolved directory for serialized binary metadata: C:\apache\apache-ignite-fabric-2.6.0-bin\work\binary_meta\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:36,408][INFO][main][FilePageStoreManager] Resolved page store work directory: C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:36,409][INFO][main][FileWriteAheadLogManager] Resolved write ahead log work directory: C:\apache\apache-ignite-fabric-2.6.0-bin\work\db\wal\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:36,409][INFO][main][FileWriteAheadLogManager] Resolved write ahead log archive directory: C:\apache\apache-ignite-fabric-2.6.0-bin\work\db\wal\archive\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:36,422][INFO][main][FileWriteAheadLogManager] Started write-ahead log manager [mode=LOG_ONLY]
+[09:22:36,437][INFO][main][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\cp\1538406441692-a9b451b9-6951-40c2-8917-f24e7c73daa3-START.bin, endMarker=C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\cp\1538406441692-a9b451b9-6951-40c2-8917-f24e7c73daa3-END.bin]
+[09:22:36,465][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24808, tableSize=1.9 MiB, checkpointBuffer=100.0 MiB]
+[09:22:36,465][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=97058, len=53], lastMarked=FileWALPointer [idx=0, fileOff=97058, len=53], lastCheckpointId=a9b451b9-6951-40c2-8917-f24e7c73daa3]
+[09:22:36,520][INFO][main][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=a9b451b9-6951-40c2-8917-f24e7c73daa3, pos=FileWALPointer [idx=0, fileOff=97058, len=53]]
+[09:22:36,563][INFO][main][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=FileWALPointer [idx=0, fileOff=97058, len=53], lastCheckpointId=a9b451b9-6951-40c2-8917-f24e7c73daa3]
+[09:22:36,616][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=52ms]
+[09:22:36,649][INFO][main][GridClusterStateProcessor] Restoring history for BaselineTopology[id=0]
+[09:22:36,742][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[09:22:36,776][INFO][main][GridTcpRestProtocol] Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+[09:22:36,794][WARNING][main][PlatformProcessorImpl] Marshaller is automatically set to o.a.i.i.binary.BinaryMarshaller (other nodes must have the same marshaller type).
+[09:22:37,135][INFO][main][IgniteKernal%Bunker] Non-loopback local IPs: 172.19.67.193, 172.24.241.2, fe80:0:0:0:22:bf41:7136:8d7f%wlan0, fe80:0:0:0:3095:c1cd:1d21:3f0d%wlan2, fe80:0:0:0:4923:2e41:1a92:c253%eth8, fe80:0:0:0:7d27:f2f4:9ac3:8bf3%wlan1, fe80:0:0:0:ad15:afb2:c923:6351%eth7, fe80:0:0:0:b1ae:59b9:ef39:f173%eth6, fe80:0:0:0:d1b0:a5c0:711b:4908%eth2
+[09:22:37,135][INFO][main][IgniteKernal%Bunker] Enabled local MACs: 509A4CC5B4A8, A44CC84DFAD2, D6152C33E46F, F894C28D0716, F894C28D0717, F894C28D071A, FA94C28D0716
+[09:22:37,167][INFO][main][GridClusterStateProcessor] Sending activate request with BaselineTopology BaselineTopology [id=0, branchingHash=-42333588, branchingType='New BaselineTopology', baselineNodes=[3fb13f50-8165-417e-93ca-ffb8d0648bfa]]
+[09:22:37,175][INFO][tcp-disco-msg-worker-#3%Bunker%][GridClusterStateProcessor] Received activate request with BaselineTopology[id=0]
+[09:22:37,179][INFO][tcp-disco-msg-worker-#3%Bunker%][GridClusterStateProcessor] Started state transition: true
+[09:22:37,191][INFO][exchange-worker-#42%Bunker%][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=2283b712-c44d-4d1a-8861-efd44de60db2, customEvt=ChangeGlobalStateMessage [id=db359303661-bbbf70a4-f771-40b0-970a-f4dd7e8fbd12, reqId=1a291ac1-bbfe-4989-8751-282803fb3d4f, initiatingNodeId=2283b712-c44d-4d1a-8861-efd44de60db2, activate=true, baselineTopology=BaselineTopology [id=0, branchingHash=-42333588, branchingType='New BaselineTopology', baselineNodes=[3fb13f50-8165-417e-93ca-ffb8d0648bfa]], forceChangeBaselineTopology=false, timestamp=1538407357167], allowMerge=false]
+[09:22:37,192][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] Start activation process [nodeId=2283b712-c44d-4d1a-8861-efd44de60db2, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[09:22:37,192][INFO][exchange-worker-#42%Bunker%][FilePageStoreManager] Resolved page store work directory: C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:37,193][INFO][exchange-worker-#42%Bunker%][FileWriteAheadLogManager] Resolved write ahead log work directory: C:\apache\apache-ignite-fabric-2.6.0-bin\work\db\wal\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:37,194][INFO][exchange-worker-#42%Bunker%][FileWriteAheadLogManager] Resolved write ahead log archive directory: C:\apache\apache-ignite-fabric-2.6.0-bin\work\db\wal\archive\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa
+[09:22:37,196][INFO][exchange-worker-#42%Bunker%][FileWriteAheadLogManager] Started write-ahead log manager [mode=LOG_ONLY]
+[09:22:37,207][INFO][exchange-worker-#42%Bunker%][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24808, tableSize=1.9 MiB, checkpointBuffer=100.0 MiB]
+[09:22:37,217][INFO][exchange-worker-#42%Bunker%][PageMemoryImpl] Started page memory [memoryAllocated=1.0 GiB, pages=254104, tableSize=19.8 MiB, checkpointBuffer=256.0 MiB]
+[09:22:37,219][INFO][exchange-worker-#42%Bunker%][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24808, tableSize=1.9 MiB, checkpointBuffer=100.0 MiB]
+[09:22:37,221][INFO][main][IgniteKernal%Bunker] Performance suggestions for grid 'Bunker' (fix if possible)
+[09:22:37,222][INFO][main][IgniteKernal%Bunker] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[09:22:37,223][INFO][main][IgniteKernal%Bunker]   ^-- Switch to the most recent 1.8 JVM version
+[09:22:37,223][INFO][main][IgniteKernal%Bunker]   ^-- Specify JVM heap max size (add '-Xmx<size>[g|G|m|M|k|K]' to JVM options)
+[09:22:37,224][INFO][main][IgniteKernal%Bunker]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[09:22:37,224][INFO][main][IgniteKernal%Bunker]   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+[09:22:37,225][INFO][main][IgniteKernal%Bunker] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[09:22:37,226][INFO][main][IgniteKernal%Bunker] 
+[09:22:37,227][INFO][main][IgniteKernal%Bunker] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[09:22:37,227][INFO][main][IgniteKernal%Bunker] 
+[09:22:37,228][INFO][main][IgniteKernal%Bunker] 
+
+>>> +----------------------------------------------------------------------+
+>>> Ignite ver. 2.6.0#20180710-sha1:669feacc5d3a4e60efcdd300dc8de99780f38eed
+>>> +----------------------------------------------------------------------+
+>>> OS name: Windows 10 10.0 amd64
+>>> CPU(s): 8
+>>> Heap: 4.0GB
+>>> VM name: 11896@APETERSON
+>>> Ignite instance name: Bunker
+>>> Local node [ID=2283B712-C44D-4D1A-8861-EFD44DE60DB2, order=1, clientMode=false]
+>>> Local node addresses: [APETERSON.mshome.net/0:0:0:0:0:0:0:1, APETERSON.steton.com/127.0.0.1, /172.19.67.193, /172.24.241.2]
+>>> Local ports: TCP:10800 TCP:11211 TCP:47100 TCP:47500 
+
+[09:22:37,235][INFO][main][GridDiscoveryManager] Topology snapshot [ver=1, servers=1, clients=0, CPUs=8, offheap=1.0GB, heap=4.0GB]
+[09:22:37,235][INFO][main][GridDiscoveryManager]   ^-- Node [id=2283B712-C44D-4D1A-8861-EFD44DE60DB2, clusterState=INACTIVE]
+[09:22:37,235][INFO][main][GridDiscoveryManager]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[09:22:37,235][INFO][main][GridDiscoveryManager]   ^-- All baseline nodes are online, will start auto-activation
+[09:22:37,235][INFO][main][GridDiscoveryManager] Data Regions Configured:
+[09:22:37,236][INFO][main][GridDiscoveryManager]   ^-- BunkerTest [initSize=100.0 MiB, maxSize=1.0 GiB, persistenceEnabled=true]
+[09:22:37,249][WARNING][main][] GC server mode is not enabled, this could lead to less than optimal performance on multi-core machines (to enable see http://msdn.microsoft.com/en-us/library/ms229357(v=vs.110).aspx).
+[09:22:37,249][INFO][main][PluginProcessor] Configured .NET plugins:
+[09:22:37,250][INFO][main][PluginProcessor]   ^-- None
+[09:22:37,276][INFO][exchange-worker-#42%Bunker%][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\cp\1538406441692-a9b451b9-6951-40c2-8917-f24e7c73daa3-START.bin, endMarker=C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\cp\1538406441692-a9b451b9-6951-40c2-8917-f24e7c73daa3-END.bin]
+[09:22:37,277][INFO][exchange-worker-#42%Bunker%][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=97058, len=53], lastMarked=FileWALPointer [idx=0, fileOff=97058, len=53], lastCheckpointId=a9b451b9-6951-40c2-8917-f24e7c73daa3]
+[09:22:37,321][INFO][exchange-worker-#42%Bunker%][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=a9b451b9-6951-40c2-8917-f24e7c73daa3, pos=FileWALPointer [idx=0, fileOff=97058, len=53]]
+[09:22:37,343][INFO][exchange-worker-#42%Bunker%][FileWriteAheadLogManager] Resuming logging to WAL segment [file=C:\apache\apache-ignite-fabric-2.6.0-bin\work\db\wal\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\0000000000000000.wal, offset=143623, ver=2]
+[09:22:37,356][INFO][exchange-worker-#42%Bunker%][GridClusterStateProcessor] Writing BaselineTopology[id=0]
+[09:22:37,545][INFO][exchange-worker-#42%Bunker%][GridCacheProcessor] Started cache [name=ignite-sys-cache, id=-2100569601, memoryPolicyName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647]
+[09:22:37,549][WARNING][exchange-worker-#42%Bunker%][GridCacheProcessor] Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=BunkerTest]
+[09:22:37,565][INFO][exchange-worker-#42%Bunker%][GridCacheProcessor] Started cache [name=BunkerTest, id=804886607, memoryPolicyName=BunkerTest, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647]
+[09:22:37,569][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] Successfully activated caches [nodeId=2283b712-c44d-4d1a-8861-efd44de60db2, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[09:22:37,574][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], waitTime=0ms, futInfo=NA]
+[09:22:37,577][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]]
+[09:22:37,578][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], waitTime=0ms, futInfo=NA]
+[09:22:37,578][INFO][exchange-worker-#42%Bunker%][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\cp\1538406441692-a9b451b9-6951-40c2-8917-f24e7c73daa3-START.bin, endMarker=C:\Bunker\node00-3fb13f50-8165-417e-93ca-ffb8d0648bfa\cp\1538406441692-a9b451b9-6951-40c2-8917-f24e7c73daa3-END.bin]
+[09:22:37,579][INFO][exchange-worker-#42%Bunker%][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=FileWALPointer [idx=0, fileOff=97058, len=53], lastCheckpointId=a9b451b9-6951-40c2-8917-f24e7c73daa3]
+[09:22:37,688][INFO][exchange-worker-#42%Bunker%][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=114ms]
+[09:22:37,695][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[09:22:37,706][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Checkpoint started [checkpointId=f8805169-8739-4007-9f76-64241b6546e5, startPtr=FileWALPointer [idx=0, fileOff=283059, len=11681], checkpointLockWait=0ms, checkpointLockHoldTime=3ms, walCpRecordFsyncDuration=8ms, pages=10, reason='node started']
+[09:22:37,721][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Checkpoint finished [cpId=f8805169-8739-4007-9f76-64241b6546e5, pages=10, markPos=FileWALPointer [idx=0, fileOff=283059, len=11681], walSegmentsCleared=0, markDuration=17ms, pagesWrite=5ms, fsync=8ms, total=30ms]
+[09:22:37,728][INFO][exchange-worker-#42%Bunker%][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], err=null]
+[09:22:37,728][INFO][tcp-disco-msg-worker-#3%Bunker%][GridClusterStateProcessor] Received state change finish message: true
+[09:22:37,737][INFO][exchange-worker-#42%Bunker%][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true]
+[09:22:37,744][INFO][exchange-worker-#42%Bunker%][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=1], evt=DISCOVERY_CUSTOM_EVT, node=2283b712-c44d-4d1a-8861-efd44de60db2]
+[09:22:37,752][INFO][sys-#49%Bunker%][GridClusterStateProcessor] Successfully performed final activation steps [nodeId=2283b712-c44d-4d1a-8861-efd44de60db2, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[09:22:47,191][INFO][ignite-update-notifier-timer][GridUpdateNotifier] Your version is up to date.
+[09:23:37,236][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:01:00.013]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-96.15%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=27MB, free=99.32%, comm=512MB]
+    ^-- Non heap [used=48MB, free=-1%, comm=52MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=7, qSize=0]
+[09:24:37,248][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:02:00.033]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-98.11%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=30MB, free=99.25%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=52MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:25:37,256][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:03:00.040]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-98.75%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=33MB, free=99.18%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=52MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=5, qSize=0]
+[09:25:37,709][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=2ms, reason='timeout']
+[09:26:37,261][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:04:00.043]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.06%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=35MB, free=99.13%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=52MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:27:37,261][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:05:00.046]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.24%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=38MB, free=99.05%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=52MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:28:37,266][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:06:00.052]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.37%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=40MB, free=99%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:28:37,794][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=1ms, reason='timeout']
+[09:29:37,267][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:07:00.052]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.47%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=42MB, free=98.96%, comm=512MB]
+    ^-- Non heap [used=48MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:30:37,275][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:08:00.057]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.54%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=45MB, free=98.88%, comm=512MB]
+    ^-- Non heap [used=48MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:31:37,279][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:09:00.066]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.58%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=47MB, free=98.83%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:32:37,284][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:10:00.071]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.62%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=50MB, free=98.76%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:33:37,290][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:11:00.072]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.66%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=52MB, free=98.71%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:34:37,288][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:12:00.074]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.68%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=55MB, free=98.64%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:34:37,987][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=0ms, reason='timeout']
+[09:35:37,296][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:13:00.076]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.71%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=57MB, free=98.59%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:36:37,298][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:14:00.084]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.73%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=59MB, free=98.54%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:37:37,303][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:15:00.091]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.75%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=62MB, free=98.46%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:37:38,102][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=1ms, reason='timeout']
+[09:38:37,307][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:16:00.091]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.77%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=64MB, free=98.41%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:39:37,311][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:17:00.099]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.78%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=66MB, free=98.37%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:40:37,323][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:18:00.107]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.79%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=69MB, free=98.29%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:41:37,325][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:19:00.109]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.8%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=71MB, free=98.24%, comm=512MB]
+    ^-- Non heap [used=49MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:42:37,331][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:20:00.112]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.81%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=73MB, free=98.19%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=53MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:43:37,334][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:21:00.114]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.82%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=76MB, free=98.12%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=54MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:43:38,252][INFO][db-checkpoint-thread-#44%Bunker%][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=1ms, reason='timeout']
+[09:44:37,334][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:22:00.119]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.83%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=78MB, free=98.07%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=54MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:45:37,341][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:23:00.123]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.84%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=80MB, free=98.02%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=54MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:46:37,337][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:24:00.123]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.84%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=83MB, free=97.95%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=54MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+[09:47:37,344][INFO][grid-timeout-worker-#23%Bunker%][IgniteKernal%Bunker] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=2283b712, name=Bunker, uptime=00:25:00.130]
+    ^-- H/N/C [hosts=1, nodes=1, CPUs=8]
+    ^-- CPU [cur=-100%, avg=-99.85%, GC=0%]
+    ^-- PageMemory [pages=18]
+    ^-- Heap [used=85MB, free=97.9%, comm=512MB]
+    ^-- Non heap [used=50MB, free=-1%, comm=54MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
